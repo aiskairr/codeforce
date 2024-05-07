@@ -1,0 +1,1409 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="../../include/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="../../include/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../../include/favicon/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="../../include/favicon/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="512x512" href="../../include/favicon/android-chrome-512x512.png">
+    <link rel="manifest" href="../../include/favicon/site.webmanifest">
+    <link rel="mask-icon" href="../../include/favicon/safari-pinned-tab.svg" color="#6b2be7">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="theme-color" content="#6b2be7">
+    <meta name="mailru-domain" content="i4urJbwdkOYmrJiR">
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta name="robots" content="index, follow">
+<meta name="description" content="Лендинг «ОСАГО Онлайн»‎ - портфолио digital-агентства CODEFORCE. Процесс разработки и общий результат.">
+<link href="../../bitrix/cache/css/s1/codeforce/template_53f16bcc5b0bfbaea44bc3877ed5da96/template_53f16bcc5b0bfbaea44bc3877ed5da96_v1.css?1712072578394671" type="text/css" data-template-style="true" rel="stylesheet">
+<script>if(!window.BX)window.BX={};if(!window.BX.message)window.BX.message=function(mess){if(typeof mess==='object'){for(let i in mess) {BX.message[i]=mess[i];} return true;}};</script>
+<script>(window.BX||top.BX).message({'pull_server_enabled':'Y','pull_config_timestamp':'1607977951','pull_guest_mode':'N','pull_guest_user_id':'0'});(window.BX||top.BX).message({'PULL_OLD_REVISION':'Для продолжения корректной работы с сайтом необходимо перезагрузить страницу.'});</script>
+<script>(window.BX||top.BX).message({'JS_CORE_LOADING':'Загрузка...','JS_CORE_NO_DATA':'- Нет данных -','JS_CORE_WINDOW_CLOSE':'Закрыть','JS_CORE_WINDOW_EXPAND':'Развернуть','JS_CORE_WINDOW_NARROW':'Свернуть в окно','JS_CORE_WINDOW_SAVE':'Сохранить','JS_CORE_WINDOW_CANCEL':'Отменить','JS_CORE_WINDOW_CONTINUE':'Продолжить','JS_CORE_H':'ч','JS_CORE_M':'м','JS_CORE_S':'с','JSADM_AI_HIDE_EXTRA':'Скрыть лишние','JSADM_AI_ALL_NOTIF':'Показать все','JSADM_AUTH_REQ':'Требуется авторизация!','JS_CORE_WINDOW_AUTH':'Войти','JS_CORE_IMAGE_FULL':'Полный размер'});</script>
+
+<script src="../../bitrix/js/main/core/core.min.js?1706882624223197"></script>
+
+<script>BX.Runtime.registerExtension({'name':'main.core','namespace':'BX','loaded':true});</script>
+<script>BX.setJSList(['/bitrix/js/main/core/core_ajax.js','/bitrix/js/main/core/core_promise.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/loadext/loadext.js','/bitrix/js/main/loadext/extension.js','/bitrix/js/main/polyfill/promise/js/promise.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/includes/js/includes.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/ui/polyfill/closest/js/closest.js','/bitrix/js/main/polyfill/fill/main.polyfill.fill.js','/bitrix/js/main/polyfill/find/js/find.js','/bitrix/js/main/polyfill/matches/js/matches.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/core/core.js','/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js','/bitrix/js/main/lazyload/dist/lazyload.bundle.js','/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js','/bitrix/js/main/parambag/dist/parambag.bundle.js']);
+</script>
+<script>(window.BX||top.BX).message({'LANGUAGE_ID':'ru','FORMAT_DATE':'DD.MM.YYYY','FORMAT_DATETIME':'DD.MM.YYYY HH:MI:SS','COOKIE_PREFIX':'BITRIX_SM','SERVER_TZ_OFFSET':'10800','UTF_MODE':'Y','SITE_ID':'s1','SITE_DIR':'/','USER_ID':'','SERVER_TIME':'1715099397','USER_TZ_OFFSET':'0','USER_TZ_AUTO':'Y','bitrix_sessid':'744fe7a67232ccccc980f0d18ce6d9a6'});</script>
+
+
+<script src="../../bitrix/js/pull/protobuf/protobuf.min.js?166559493576433"></script>
+<script src="../../bitrix/js/pull/protobuf/model.min.js?166559493514190"></script>
+<script src="../../bitrix/js/main/core/core_promise.min.js?16372764682490"></script>
+<script src="../../bitrix/js/rest/client/rest.client.min.js?16655948699240"></script>
+<script src="../../bitrix/js/pull/client/pull.client.min.js?170352430149554"></script>
+<script src="../../2.1/json.txt?apikey=5cc285c4-fb86-4aa5-8ee7-84f695b8f552&lang=ru_RU"></script>
+<script src="../../recaptcha/api.js?render=6LcqUU0nAAAAAA8ZD7z2xe-1KNGh24VRPVDJVCgi"></script>
+<script>BX.setJSList(['/local/templates/codeforce/build/js/vendor/jquery.min.js','/local/templates/codeforce/build/js/vendor/libphonenumber-min.js','/local/templates/codeforce/build/js/vendor/js.cookie.min.js','/local/templates/codeforce/build/js/vendor/jquery.fancybox.min.js','/local/templates/codeforce/build/js/vendor/swiper-bundle.min.js','/local/templates/codeforce/build/js/vendor/jquery.scrollTo.min.js','/local/templates/codeforce/build/js/vendor/svg4everybody.js','/local/templates/codeforce/build/js/vendor/dropzone.js','/local/templates/codeforce/build/js/vendor/smoothScroll.js','/local/templates/codeforce/build/js/vendor/jquery.inputmask.bundle.min.js','/local/templates/codeforce/build/js/vendor/highlight.min.js','/local/templates/codeforce/build/js/vendor/highlightjs-line-numbers.js','/local/templates/codeforce/build/js/vendor/jquery.datetimepicker.full.min.js','/local/templates/codeforce/build/js/main.min.js','/local/templates/codeforce/build/js/dev.min.js']);</script>
+<script>BX.setCSSList(['/local/templates/codeforce/build/css/main.min.css','/local/templates/codeforce/styles.css']);</script>
+<!-- dev2fun module opengraph -->
+<meta property="og:title" content="Портфолио: Лендинг &laquo;ОСАГО Онлайн&raquo;&lrm; | Digital-агентство CODEFORCE">
+<meta property="og:description" content="Лендинг &laquo;ОСАГО Онлайн&raquo;&lrm; - портфолио digital-агентства CODEFORCE. Процесс разработки и общий результат.">
+<meta property="og:url" content="/portfolio/lending-osago-onlayn/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="CODEFORCE">
+<meta property="og:image" content="/upload/iblock/8f4/ecc1nk0vj2hj2uvbudnlfuunwr07ss8s.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:width" content="1500">
+<meta property="og:image:height" content="844">
+<!-- /dev2fun module opengraph -->
+
+
+
+<script src="../../bitrix/cache/js/s1/codeforce/template_381b08afc593f0e62ef568a58e05fba9/template_381b08afc593f0e62ef568a58e05fba9_v1.js?1712072578954033"></script>
+<script>var _ba = _ba || []; _ba.push(["aid", "ce0ceccb9a7eeae3c25dc57729a57552"]); _ba.push(["host", "codeforce.kg"]); (function() {var ba = document.createElement("script"); ba.type = "text/javascript"; ba.async = true;ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";var s = document.getElementsByTagName("script")[0];s.parentNode.insertBefore(ba, s);})();</script>
+
+
+        <title>Портфолио: Лендинг «ОСАГО Онлайн»‎ | Digital-агентство CODEFORCE</title>
+    
+                
+        
+        <script type="application/ld+json">
+        {
+            "@context": "http://schema.org",
+            "@type": "Organization",
+            "address": {
+                "@type": "PostalAddress",
+                "addressLocality": "Бишкек",
+                "addressRegion": "Чуйска область",
+                "postalCode": "127299",
+                "streetAddress": "Адрес"
+            },
+            "name": "CodeForce",
+            "telephone": "+996 995 995 995",
+            "email": "codeforce.kg@gmail.com",
+            "url": "/",
+            "logo": "/local/templates/codeforce/build/img/logo.svg",
+            "image": "/local/templates/codeforce/build/img/logo.svg"
+        }
+    </script>
+</head>
+
+<body class="portfolio-detail">
+    
+<div id="panel"></div>
+
+
+<div class="mobile-nav">
+    <div class="mobile-nav__inner">
+        <div class="container">
+            <div class="mobile-nav__close">
+                <div class="mobile-menu-button">
+                    <span class="burger-menu__piece"></span>
+                    <span class="burger-menu__piece"></span>
+                    <span class="burger-menu__piece"></span>
+                </div>
+            </div>
+            <nav class="mobile-nav__menu">
+                
+	<ul class="main-menu__list">
+    
+    
+                    <li class="main-menu__item main-menu__item_parent">
+                <a href="../../site-development/index.htm" class="main-menu__link main-menu__link_parent ">
+					Разработка сайтов					<span class="main-menu__link_parent-toggle">
+                        <svg width="14px" height="14px">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#arrow-icon"></use>
+                        </svg>
+                    </span>
+				</a>
+                <ul class="main-menu__submenu main-menu__submenu-1 submenu">
+        
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/landing-page/index.htm">Landing page</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/korporativnii-site/index.htm">Корпоративный сайт</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/internet-magazin/index.htm">Интернет-магазин</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/another-site/index.htm">Индивидуальный проект</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../integrations/index.htm">Интеграция внешних систем</a></li>
+        
+
+    
+    
+
+	
+            </ul></li>    
+    
+
+                    <li class="main-menu__item">
+                <a href="../../podderzhka-saytov/index.htm" class="main-menu__link ">Поддержка</a>
+            </li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="main-menu__item">
+                <a href="../index.htm" class="main-menu__link selected">Портфолио</a>
+            </li>
+        
+
+    
+    
+
+	
+    
+    
+                    <li class="main-menu__item main-menu__item_parent">
+                <a href="../../about/index.htm" class="main-menu__link main-menu__link_parent ">
+					О нас					<span class="main-menu__link_parent-toggle">
+                        <svg width="14px" height="14px">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#arrow-icon"></use>
+                        </svg>
+                    </span>
+				</a>
+                <ul class="main-menu__submenu main-menu__submenu-1 submenu">
+        
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../reviews/index.htm">Отзывы</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../about/certification/index.htm">Сертификаты</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../vacancy/index.htm">Вакансии</a></li>
+        
+
+    
+    
+
+	
+            </ul></li>    
+    
+
+                   
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="main-menu__item">
+                <a href="../../contacts/index.htm" class="main-menu__link ">Контакты</a>
+            </li>
+        
+
+    
+    
+
+	
+
+      </ul>
+            </nav>
+            <div class="mobile-nav__location">
+                <svg width="9px" height="12px">
+                    <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#pin-icon"></use>
+                </svg>
+                <span>
+				Бишкек, Адрес 			</span>
+            </div>
+            <div class="mobile-nav__contacts ">
+
+                <div class="mobile-nav__phone-wrapper">
+                    <a class="mobile-nav__phone" href="tel:+996995995995">
+                        <svg class="mobile-nav__phone-icon" width="15px" height="15px">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#phone-icon"></use>
+                        </svg>
+                        <span class="mobile-nav__phone-text">+996 995 995 995</span>
+                    </a>
+                </div>
+                <div class="mobile-nav__worktime">
+                    Пн - Пт, 10:00 - 19:00                </div>
+
+            </div>
+            <div class="mobile-nav__button">
+                <a href="#feedback__popup" data-fancybox="" class="button-outlined _white">
+                    Перезвоните мне
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<header class="header ">
+    <div class="header__fixed-wrapper">
+        <div class="container">
+            <div class="header__wrapper ">
+                <div class="logo header__logo">
+                    <a href="../../index.htm" class="header__logo-link">
+                        <img class="header__logo-img header__logo-img_white" src="../../local/templates/codeforce/build/img/logo-white.svg" alt="Логотип CODEFORCE белый">
+                        <img class="header__logo-img header__logo-img_color" src="../../local/templates/codeforce/build/img/logo.svg" alt="Логотип CODEFORCE">
+                    </a>
+                    <p class="header__info d-none d-xl-block">Веб-разработка и поддержка <br>для вашего успеха в интернете</p>
+                </div>
+                <div class="header__contacts ">
+                    <div class="header__phone-wrapper">
+                        <a class="header__phone" href="tel:+996995995995">
+                            <svg class="header__phone-icon" width="15px" height="15px">
+                                <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#phone-icon"></use>
+                            </svg>
+                            <span class="header__phone-text d-none d-md-block">+996 995 995 995</span>
+                        </a>
+                    </div>
+                    <div class="header__worktime d-none">
+                        Пн - Пт, 10:00 - 19:00                    </div>
+                </div>
+                <div class="header__socials">
+                    <a href="https://wa.me/996995995995" class="header__soc header__soc_whatsapp" target="_blank" rel="nofollow" title="WhatsApp">
+                        <img src="../../local/templates/codeforce/build/img/icons/social/whatsapp-color.svg" width="18" height="18" alt="">
+                    </a>
+                    <a href="https://t.me/CodeForceBot" class="header__soc header__soc_telegram" target="_blank" rel="nofollow" title="Telegram">
+                        <svg width="18" height="18">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#telega-icon"></use>
+                        </svg>
+                    </a>
+                    <a href="https://www.instagram.com/" class="header__soc header__soc_behance" target="_blank" rel="nofollow" title="Behance">
+                        <svg width="18" height="18">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#instagram-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+                <div class="header__buttons">
+                    <div class="header__button  d-none d-lg-block">
+                        <a href="#feedback__popup" data-fancybox="" class="button-outlined">
+                            Перезвоните мне
+                        </a>
+                    </div>
+                </div>
+                <div class="header__mobile-button d-lg-none">
+                    <div class="mobile-menu-button">
+                        <span class="burger-menu__piece"></span>
+                        <span class="burger-menu__piece"></span>
+                        <span class="burger-menu__piece"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="container">
+                <div class="main-nav__menu main-menu">
+                    
+	<ul class="main-menu__list">
+    
+    
+                    <li class="main-menu__item main-menu__item_parent">
+                <a href="../../site-development/index.htm" class="main-menu__link main-menu__link_parent ">
+					Разработка сайтов					<span class="main-menu__link_parent-toggle">
+                        <svg width="14px" height="14px">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#arrow-icon"></use>
+                        </svg>
+                    </span>
+				</a>
+                <ul class="main-menu__submenu main-menu__submenu-1 submenu">
+        
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/landing-page/index.htm">Landing page</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/korporativnii-site/index.htm">Корпоративный сайт</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/internet-magazin/index.htm">Интернет-магазин</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../site-development/another-site/index.htm">Индивидуальный проект</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../integrations/index.htm">Интеграция внешних систем</a></li>
+        
+
+    
+    
+
+	
+            </ul></li>    
+    
+
+                    <li class="main-menu__item">
+                <a href="../../podderzhka-saytov/index.htm" class="main-menu__link ">Поддержка</a>
+            </li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="main-menu__item">
+                <a href="../index.htm" class="main-menu__link selected">Портфолио</a>
+            </li>
+        
+
+    
+    
+
+	
+    
+    
+                    <li class="main-menu__item main-menu__item_parent">
+                <a href="../../about/index.htm" class="main-menu__link main-menu__link_parent ">
+					О нас					<span class="main-menu__link_parent-toggle">
+                        <svg width="14px" height="14px">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#arrow-icon"></use>
+                        </svg>
+                    </span>
+				</a>
+                <ul class="main-menu__submenu main-menu__submenu-1 submenu">
+        
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../reviews/index.htm">Отзывы</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../about/certification/index.htm">Сертификаты</a></li>
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="submenu__item"><a class="submenu__link" href="../../vacancy/index.htm">Вакансии</a></li>
+        
+
+    
+    
+
+	
+            </ul></li>    
+    
+
+                   
+        
+
+    
+    
+
+	
+    
+    
+
+                    <li class="main-menu__item">
+                <a href="../../contacts/index.htm" class="main-menu__link ">Контакты</a>
+            </li>
+        
+
+    
+    
+
+	
+
+      </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+</header>
+
+    <div class="breadcrumbs">
+        <div class="container">
+            <div class="breadcrumbs__wrapper"><ul class="breadcrumbs__list" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+			<li class="breadcrumbs__item" id="bx_breadcrumb_0" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				
+				<a href="../../index.htm" title="Главная" itemprop="item" class="breadcrumbs__link">
+					<span itemprop="name">Главная</span>
+				</a>
+				<span class="breadcrumbs__delimiter">
+					<svg width="14px" height="8px">
+					<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#long-arrow-icon"></use>
+				</svg>
+				</span><meta itemprop="position" content="1">
+			</li>
+			<li class="breadcrumbs__item" id="bx_breadcrumb_1" itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+				
+				<a href="../index.htm" title="Портфолио" itemprop="item" class="breadcrumbs__link">
+					<span itemprop="name">Портфолио</span>
+				</a>
+				<span class="breadcrumbs__delimiter">
+					<svg width="14px" height="8px">
+					<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#long-arrow-icon"></use>
+				</svg>
+				</span><meta itemprop="position" content="2">
+			</li>
+			<li class="breadcrumbs__item">
+				<span class="breadcrumbs__current">Лендинг «ОСАГО Онлайн»‎</span>
+			</li></ul></div>
+        </div>
+    </div>
+
+
+
+
+<main class="content  ">
+    
+
+<section class="case-info">
+    <div class="container">
+
+        <div class="case-info__heading case-info__h1">
+            <div>
+                <h1>Лендинг «ОСАГО Онлайн»‎</h1>
+                                    <p>Сайт для оформления страхового полиса ОСАГО онлайн</p>
+                            </div>
+            <div class="case__link-wrapper">
+                                    <a href="https://www-osago.ru" rel="noreferrer nofollow" class="case__link" target="_blank">
+                        <svg class="small-icon" width="14" height="14">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#link-icon"></use>
+                        </svg>
+                        Сайт проекта                    </a>
+                            </div>
+
+        </div>
+
+        <div class="case-info__img">
+            <img src="../../upload/iblock/6e7/k04sgy0jmuh72peaf4jirq0r8sl47gfu.jpg" alt="Лендинг «ОСАГО Онлайн»‎">
+        </div>
+
+                    <div class="numbers case-info__ben">
+                <ul class="numbers__list ">
+
+                                                                    <li class="numbers__item">
+                            <span class="numbers__number">3 недели</span>
+                            <p class="paragraph numbers__paragraph">Время запуска проекта с нуля</p>
+                        </li>
+                                                                    <li class="numbers__item">
+                            <span class="numbers__number">25%</span>
+                            <p class="paragraph numbers__paragraph">Целевое увеличение конверсии</p>
+                        </li>
+                                                                    <li class="numbers__item">
+                            <span class="numbers__number">5 минут</span>
+                            <p class="paragraph numbers__paragraph">Время оформления заявки на ОСАГО</p>
+                        </li>
+                                    </ul>
+            </div>
+        
+
+
+                    <div class="case-info__about-project">
+
+                <div class="case-info__heading">
+                    <h2>О проекте</h2>
+                </div>
+
+                <div class="row">
+
+                                            <div class="case-description col-lg-6">
+                            <h2 class="heading heading__h2">Описание компании</h2>
+                            <p>
+	 Компания ОСАГО Онлайн помогает клиентам оформить страховой полис ОСАГО на лучших условиях без посредников всего за 5 минут.
+</p>                        </div>
+                    
+
+                                            <div class="case-description col-lg-6">
+                            <h2 class="heading heading__h2">Цели и задачи проекта</h2>
+                            <p>
+	 Основной задачей проекта являлось качественное донесение информации до клиента и повышение конверсии в сделку.
+</p>                        </div>
+                    
+                </div>
+            </div>
+            </div>
+</section>
+<section class="production">
+            <div class="production__home">
+            <div class="container">
+                <div class="case-info__heading">
+                    <h2 class="heading heading__h2">Главная страница</h2>
+                </div>
+                <div data-src="/upload/iblock/852/xolkf3uze23rm8opdm2o36r80dpt1ph3.png" data-fancybox="main-gallery">
+                    <img class="production__img" src="../../upload/iblock/852/xolkf3uze23rm8opdm2o36r80dpt1ph3.png" alt="Лендинг «ОСАГО Онлайн»‎" title="Лендинг «ОСАГО Онлайн»‎">
+                </div>
+            </div>
+        </div>
+                <div class="production__inner">
+            <div class="container">
+                <div class="case-info__heading">
+                    <h2 class="heading heading__h2">Внутренние страницы</h2>
+                </div>
+            </div>
+            <div class="production__inner-list">
+                                    <div class="production__inner-row">
+                                                    <div class="production__inner-item">
+                                <div data-src="/upload/iblock/dfb/sgldbjp19b26wafptb7ho3svifpd4or0.jpg" data-fancybox="case-gallery" class="production__inner-img"><img src="../../upload/iblock/dfb/sgldbjp19b26wafptb7ho3svifpd4or0.jpg" alt=""></div>
+                            </div>
+                                                    <div class="production__inner-item">
+                                <div data-src="/upload/iblock/14d/1joihelftsd5bpmy1d8qvpyyr66ijfbw.jpg" data-fancybox="case-gallery" class="production__inner-img"><img src="../../upload/iblock/14d/1joihelftsd5bpmy1d8qvpyyr66ijfbw.jpg" alt=""></div>
+                            </div>
+                                            </div>
+                                    <div class="production__inner-row">
+                                                    <div class="production__inner-item">
+                                <div data-src="/upload/iblock/28d/3tneboiv50zvjs6a0po7m6jcyhbz0il2.jpg" data-fancybox="case-gallery" class="production__inner-img"><img src="../../upload/iblock/28d/3tneboiv50zvjs6a0po7m6jcyhbz0il2.jpg" alt=""></div>
+                            </div>
+                                                    <div class="production__inner-item">
+                                <div data-src="/upload/iblock/e03/qdg2yuz3ijfj4tcpc1qk0lvedj1p84fo.jpg" data-fancybox="case-gallery" class="production__inner-img"><img src="../../upload/iblock/e03/qdg2yuz3ijfj4tcpc1qk0lvedj1p84fo.jpg" alt=""></div>
+                            </div>
+                                            </div>
+                            </div>
+        </div>
+    
+</section>
+
+    <section class="typography">
+        <div class="container">
+            <div class="row">
+                                    <div class="col-lg-6">
+                        <div class="case-info__heading">
+                            <h2>Типографика</h2>
+                        </div>
+                        <div class="typography__font">
+                            <div class="typography__font-item">
+                                                                    <div class="typography__font-val"><svg width="185" height="32" viewbox="0 0 185 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.894 31.552C13.9194 31.552 11.19 30.862 8.70605 29.482C6.25271 28.102 4.30538 26.216 2.86405 23.824C1.45338 21.4013 0.748047 18.7333 0.748047 15.82C0.748047 12.9067 1.46871 10.254 2.91005 7.86201C4.35138 5.43935 6.29871 3.53801 8.75205 2.15801C11.236 0.778013 13.9654 0.0880127 16.94 0.0880127C19.8227 0.0880127 22.4294 0.76268 24.76 2.11201C27.1214 3.43068 28.9767 5.27068 30.326 7.63201L25.634 10.944C23.4874 7.54001 20.5894 5.83801 16.94 5.83801C15.0694 5.83801 13.3827 6.26735 11.88 7.12601C10.408 7.98468 9.24271 9.18068 8.38405 10.714C7.55605 12.2167 7.14205 13.934 7.14205 15.866C7.14205 17.798 7.55605 19.5153 8.38405 21.018C9.24271 22.5207 10.408 23.7013 11.88 24.56C13.3827 25.388 15.0694 25.802 16.94 25.802C20.5894 25.802 23.4874 24.1 25.634 20.696L30.326 24.008C29.0074 26.3693 27.1674 28.2247 24.806 29.574C22.4447 30.8927 19.8074 31.552 16.894 31.552Z" fill="#171718"></path>
+<path d="M55.6702 21.708H39.7083C40.0763 23.1493 40.8122 24.2687 41.9162 25.066C43.0509 25.8327 44.4462 26.216 46.1022 26.216C48.3409 26.216 50.4569 25.4493 52.4503 23.916L55.0262 28.148C52.3276 30.4173 49.2916 31.552 45.9183 31.552C43.5569 31.552 41.4256 31.0307 39.5243 29.988C37.6229 28.9453 36.1356 27.5193 35.0622 25.71C33.9889 23.87 33.4523 21.846 33.4523 19.638C33.4523 17.43 33.9736 15.4213 35.0163 13.612C36.0589 11.772 37.4849 10.3307 39.2943 9.28801C41.1343 8.24535 43.1582 7.72401 45.3662 7.72401C47.4516 7.72401 49.3069 8.19935 50.9323 9.15001C52.5576 10.07 53.8149 11.3427 54.7043 12.968C55.6242 14.5627 56.0843 16.3413 56.0843 18.304C56.0843 19.408 55.9463 20.5427 55.6702 21.708ZM45.1362 12.738C43.8176 12.738 42.6676 13.152 41.6862 13.98C40.7049 14.808 40.0456 15.9273 39.7083 17.338H50.0583C50.0276 15.9273 49.5369 14.808 48.5863 13.98C47.6356 13.152 46.4856 12.738 45.1362 12.738Z" fill="#171718"></path>
+<path d="M74.9137 8.23001V13.704H73.2577C71.387 13.704 69.8997 14.21 68.7957 15.222C67.6917 16.2033 67.1397 17.6753 67.1397 19.638V31H60.9297V8.23001H66.6337V10.944C67.4004 9.99335 68.3204 9.25735 69.3937 8.73601C70.467 8.21468 71.6324 7.95401 72.8897 7.95401C73.6564 7.95401 74.331 8.04601 74.9137 8.23001Z" fill="#171718"></path>
+<path d="M87.6525 7.72401C90.6271 7.72401 92.9885 8.56735 94.7365 10.254C96.5151 11.91 97.4045 14.3173 97.4045 17.476V31H91.7005V28.792C90.8725 29.6507 89.8605 30.3253 88.6645 30.816C87.4991 31.3067 86.1958 31.552 84.7545 31.552C82.3318 31.552 80.4151 30.9233 79.0045 29.666C77.5938 28.378 76.8885 26.7373 76.8885 24.744C76.8885 22.6893 77.6551 21.0793 79.1885 19.914C80.7525 18.718 82.8531 18.12 85.4905 18.12H91.1945V17.108C91.1945 15.8507 90.8265 14.8693 90.0905 14.164C89.3851 13.4587 88.3425 13.106 86.9625 13.106C85.7971 13.106 84.7545 13.3667 83.8345 13.888C82.9145 14.3787 81.9485 15.1607 80.9365 16.234L77.7165 12.416C80.3538 9.28801 83.6658 7.72401 87.6525 7.72401ZM86.4105 26.998C87.7598 26.998 88.8945 26.584 89.8145 25.756C90.7345 24.8973 91.1945 23.8087 91.1945 22.49V22.214H86.3185C85.3065 22.214 84.5245 22.4133 83.9725 22.812C83.4205 23.18 83.1445 23.7473 83.1445 24.514C83.1445 25.2807 83.4358 25.894 84.0185 26.354C84.6318 26.7833 85.4291 26.998 86.4105 26.998Z" fill="#171718"></path>
+<path d="M116.687 0.640014H128.095C130.211 0.640014 132.097 1.05401 133.753 1.88201C135.409 2.67935 136.697 3.82935 137.617 5.33201C138.568 6.80401 139.043 8.50601 139.043 10.438C139.043 12.37 138.568 14.0873 137.617 15.59C136.697 17.062 135.409 18.212 133.753 19.04C132.097 19.868 130.211 20.282 128.095 20.282H122.897V31H116.687V0.640014ZM128.095 14.854C129.537 14.854 130.656 14.4553 131.453 13.658C132.281 12.83 132.695 11.7567 132.695 10.438C132.695 9.15001 132.281 8.10735 131.453 7.31001C130.625 6.51268 129.506 6.11401 128.095 6.11401H122.897V14.854H128.095Z" fill="#171718"></path>
+<path d="M157.57 8.23001V13.704H155.914C154.043 13.704 152.556 14.21 151.452 15.222C150.348 16.2033 149.796 17.6753 149.796 19.638V31H143.586V8.23001H149.29V10.944C150.057 9.99335 150.977 9.25735 152.05 8.73601C153.123 8.21468 154.289 7.95401 155.546 7.95401C156.313 7.95401 156.987 8.04601 157.57 8.23001Z" fill="#171718"></path>
+<path d="M171.827 31.506C169.588 31.506 167.533 30.9847 165.663 29.942C163.823 28.8687 162.366 27.4273 161.293 25.618C160.219 23.778 159.683 21.7693 159.683 19.592C159.683 17.4147 160.219 15.4213 161.293 13.612C162.366 11.772 163.838 10.3307 165.709 9.28801C167.579 8.24535 169.634 7.72401 171.873 7.72401C174.111 7.72401 176.166 8.26068 178.037 9.33401C179.907 10.3767 181.379 11.8027 182.453 13.612C183.557 15.4213 184.109 17.4147 184.109 19.592C184.109 21.7693 183.557 23.778 182.453 25.618C181.379 27.4273 179.892 28.8687 177.991 29.942C176.12 30.9847 174.065 31.506 171.827 31.506ZM171.873 25.802C173.559 25.802 174.955 25.2193 176.059 24.054C177.193 22.8887 177.761 21.4167 177.761 19.638C177.761 17.8593 177.193 16.372 176.059 15.176C174.955 13.98 173.559 13.382 171.873 13.382C170.155 13.382 168.745 13.98 167.641 15.176C166.537 16.3413 165.985 17.8287 165.985 19.638C165.985 21.4167 166.537 22.8887 167.641 24.054C168.745 25.2193 170.155 25.802 171.873 25.802Z" fill="#171718"></path>
+</svg>
+</div>
+                                                                                                    <div class="typography__font-val"><svg width="105" height="40" viewbox="0 0 105 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M25.898 26.032H22.034V31H15.824V26.032H0.735962V24.376L10.12 0.640015H16.514L8.46396 20.788H15.824V12.278H22.034V20.788H25.898V26.032Z" fill="#171718"></path>
+<path d="M40.5788 10.392C42.2961 10.392 43.9215 10.8367 45.4548 11.726C47.0188 12.5847 48.2761 13.8113 49.2268 15.406C50.1775 16.97 50.6528 18.7333 50.6528 20.696C50.6528 22.7507 50.1315 24.606 49.0888 26.262C48.0768 27.918 46.7121 29.2213 44.9948 30.172C43.2775 31.092 41.4375 31.552 39.4748 31.552C37.5121 31.552 35.6721 31.092 33.9548 30.172C32.2375 29.2213 30.8728 27.918 29.8608 26.262C28.8488 24.606 28.3428 22.7353 28.3428 20.65C28.3428 19.454 28.5115 18.35 28.8488 17.338C29.1861 16.326 29.6155 15.3907 30.1368 14.532C30.6888 13.6733 31.4708 12.5387 32.4828 11.128L40.0728 0.640015H47.3868L40.3948 10.392H40.5788ZM39.4748 25.848C40.8855 25.848 42.0661 25.3573 43.0168 24.376C43.9981 23.3947 44.4888 22.168 44.4888 20.696C44.4888 19.224 43.9981 18.0127 43.0168 17.062C42.0661 16.0807 40.8855 15.59 39.4748 15.59C38.0641 15.59 36.8681 16.0807 35.8868 17.062C34.9361 18.0433 34.4608 19.2547 34.4608 20.696C34.4608 22.1373 34.9361 23.364 35.8868 24.376C36.8681 25.3573 38.0641 25.848 39.4748 25.848Z" fill="#171718"></path>
+<path d="M68.4789 7.72401C70.5949 7.72401 72.4809 8.24535 74.1369 9.28801C75.8235 10.3 77.1422 11.7107 78.0929 13.52C79.0435 15.2987 79.5189 17.3227 79.5189 19.592C79.5189 21.8613 79.0435 23.9007 78.0929 25.71C77.1422 27.5193 75.8235 28.9453 74.1369 29.988C72.4809 31.0307 70.5949 31.552 68.4789 31.552C67.0989 31.552 65.8262 31.322 64.6609 30.862C63.4955 30.3713 62.4989 29.6813 61.6709 28.792V39.28H55.4609V8.23001H61.1649V11.082C61.9315 10.0087 62.9435 9.18068 64.2009 8.59801C65.4889 8.01535 66.9149 7.72401 68.4789 7.72401ZM67.3289 25.894C68.9849 25.894 70.3802 25.3267 71.5149 24.192C72.6495 23.0267 73.2169 21.5087 73.2169 19.638C73.2169 17.7367 72.6495 16.2187 71.5149 15.084C70.4109 13.9187 69.0155 13.336 67.3289 13.336C65.7649 13.336 64.4155 13.8727 63.2809 14.946C62.1462 15.9887 61.5789 17.5373 61.5789 19.592C61.5789 21.616 62.1309 23.18 63.2349 24.284C64.3695 25.3573 65.7342 25.894 67.3289 25.894Z" fill="#171718"></path>
+<path d="M97.5221 31L92.6461 23.732L87.7241 31H80.7781L89.1041 19.27L81.3301 8.23001H88.2761L92.6461 14.808L96.9701 8.23001H103.916L96.0961 19.224L104.468 31H97.5221Z" fill="#171718"></path>
+</svg>
+</div>
+                                                            </div>
+                            <div class="typography__font-item">
+                                                                    <div class="typography__font-val"><svg width="63" height="12" viewbox="0 0 63 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M6.25594 11.176C5.25328 11.176 4.33061 10.936 3.48794 10.456C2.64528 9.97604 1.97861 9.32004 1.48794 8.48804C1.00794 7.65604 0.767944 6.73337 0.767944 5.72004C0.767944 4.7067 1.00794 3.78404 1.48794 2.95204C1.97861 2.12004 2.64528 1.46404 3.48794 0.984037C4.33061 0.504038 5.25328 0.264038 6.25594 0.264038C7.19461 0.264038 8.04795 0.472038 8.81594 0.888038C9.58394 1.29337 10.1919 1.8427 10.6399 2.53604L9.71195 3.27204C9.30661 2.68537 8.81061 2.23204 8.22394 1.91204C7.64794 1.58137 6.99728 1.41604 6.27194 1.41604C5.48261 1.41604 4.76794 1.6027 4.12794 1.97604C3.48794 2.34937 2.98128 2.8667 2.60794 3.52804C2.24528 4.1787 2.06394 4.90937 2.06394 5.72004C2.06394 6.5307 2.24528 7.2667 2.60794 7.92804C2.98128 8.5787 3.48794 9.0907 4.12794 9.46404C4.76794 9.83737 5.48261 10.024 6.27194 10.024C6.99728 10.024 7.64794 9.86404 8.22394 9.54404C8.81061 9.21337 9.30661 8.7547 9.71195 8.16804L10.6399 8.90404C10.2026 9.59737 9.59461 10.152 8.81594 10.568C8.04795 10.9734 7.19461 11.176 6.25594 11.176Z" fill="#171718"></path>
+<path d="M19.5212 7.48004H13.3612C13.4359 8.24804 13.7399 8.86671 14.2732 9.33604C14.8065 9.80537 15.4572 10.04 16.2252 10.04C17.1105 10.04 17.9052 9.68804 18.6092 8.98404L19.3292 9.81604C18.9239 10.2427 18.4545 10.5787 17.9212 10.824C17.3985 11.0587 16.8279 11.176 16.2092 11.176C15.4412 11.176 14.7425 11 14.1132 10.648C13.4839 10.2854 12.9879 9.7947 12.6252 9.17604C12.2625 8.55737 12.0812 7.86937 12.0812 7.11204C12.0812 6.36537 12.2572 5.6827 12.6092 5.06404C12.9612 4.4347 13.4412 3.9387 14.0492 3.57604C14.6572 3.21337 15.3292 3.03204 16.0652 3.03204C16.7265 3.03204 17.3292 3.18137 17.8732 3.48004C18.4172 3.7787 18.8439 4.1947 19.1532 4.72804C19.4625 5.26137 19.6172 5.86937 19.6172 6.55204C19.6172 6.8507 19.5852 7.16004 19.5212 7.48004ZM16.0332 4.15204C15.3825 4.15204 14.8172 4.36004 14.3372 4.77604C13.8572 5.18137 13.5479 5.72004 13.4092 6.39204H18.3532C18.3425 5.6987 18.1132 5.1547 17.6652 4.76004C17.2279 4.3547 16.6839 4.15204 16.0332 4.15204Z" fill="#171718"></path>
+<path d="M25.9258 3.20804V4.29604H25.4618C25.0245 4.29604 24.6192 4.3867 24.2458 4.56804C23.8725 4.74937 23.5738 5.0107 23.3498 5.35204C23.1258 5.69337 23.0138 6.10404 23.0138 6.58404V11H21.7818V3.20804H22.9338V4.31204C23.2112 3.9387 23.5632 3.6507 23.9898 3.44804C24.4272 3.24537 24.8805 3.14404 25.3498 3.14404C25.5205 3.14404 25.7125 3.16537 25.9258 3.20804Z" fill="#171718"></path>
+<path d="M30.2224 3.03204C31.1398 3.03204 31.8758 3.30404 32.4304 3.84804C32.9851 4.39204 33.2624 5.17604 33.2624 6.20004V11H32.1104V9.99204C31.8224 10.376 31.4544 10.6694 31.0064 10.872C30.5584 11.0747 30.0518 11.176 29.4864 11.176C28.6864 11.176 28.0304 10.9787 27.5184 10.584C27.0171 10.1894 26.7664 9.65604 26.7664 8.98404C26.7664 8.3227 27.0224 7.7947 27.5344 7.40004C28.0464 7.00537 28.7238 6.80804 29.5664 6.80804H32.0304V6.13604C32.0304 5.49604 31.8598 5.0107 31.5184 4.68004C31.1878 4.3387 30.7291 4.16804 30.1424 4.16804C29.6731 4.16804 29.2571 4.2747 28.8944 4.48804C28.5318 4.6907 28.1904 5.00004 27.8704 5.41604L27.0544 4.74404C27.4064 4.16804 27.8598 3.74137 28.4144 3.46404C28.9691 3.17604 29.5718 3.03204 30.2224 3.03204ZM29.6464 10.152C30.0731 10.152 30.4678 10.0614 30.8304 9.88004C31.1931 9.68804 31.4811 9.4267 31.6944 9.09604C31.9184 8.76537 32.0304 8.4027 32.0304 8.00804V7.81604H29.7104C29.1664 7.81604 28.7504 7.91204 28.4624 8.10404C28.1744 8.28537 28.0304 8.55737 28.0304 8.92004C28.0304 9.3147 28.1851 9.6187 28.4944 9.83204C28.8038 10.0454 29.1878 10.152 29.6464 10.152Z" fill="#171718"></path>
+<path d="M40.4559 0.440038H44.1679C44.8506 0.440038 45.4426 0.573371 45.9439 0.840037C46.4559 1.09604 46.8506 1.4587 47.1279 1.92804C47.4053 2.3867 47.5439 2.90937 47.5439 3.49604C47.5439 4.09337 47.4053 4.6267 47.1279 5.09604C46.8506 5.56537 46.4559 5.93337 45.9439 6.20004C45.4426 6.45604 44.8506 6.58404 44.1679 6.58404H41.7039V11H40.4559V0.440038ZM44.1359 5.46404C44.8079 5.46404 45.3253 5.28804 45.6879 4.93604C46.0613 4.57337 46.2479 4.0987 46.2479 3.51204C46.2479 2.93604 46.0613 2.4667 45.6879 2.10404C45.3253 1.74137 44.8079 1.56004 44.1359 1.56004H41.7039V5.46404H44.1359Z" fill="#171718"></path>
+<path d="M53.6602 3.20804V4.29604H53.1962C52.7589 4.29604 52.3535 4.3867 51.9802 4.56804C51.6069 4.74937 51.3082 5.0107 51.0842 5.35204C50.8602 5.69337 50.7482 6.10404 50.7482 6.58404V11H49.5162V3.20804H50.6682V4.31204C50.9455 3.9387 51.2975 3.6507 51.7242 3.44804C52.1615 3.24537 52.6149 3.14404 53.0842 3.14404C53.2549 3.14404 53.4469 3.16537 53.6602 3.20804Z" fill="#171718"></path>
+<path d="M58.6608 11.16C57.9142 11.16 57.2315 10.9787 56.6128 10.616C55.9942 10.2534 55.5035 9.7627 55.1408 9.14404C54.7782 8.5147 54.5968 7.83204 54.5968 7.09604C54.5968 6.34937 54.7782 5.6667 55.1408 5.04804C55.5035 4.4187 55.9942 3.92804 56.6128 3.57604C57.2422 3.21337 57.9302 3.03204 58.6768 3.03204C59.4235 3.03204 60.1062 3.21337 60.7248 3.57604C61.3542 3.9387 61.8502 4.42937 62.2128 5.04804C62.5755 5.6667 62.7568 6.34937 62.7568 7.09604C62.7568 7.83204 62.5755 8.5147 62.2128 9.14404C61.8502 9.7627 61.3542 10.2534 60.7248 10.616C60.0955 10.9787 59.4075 11.16 58.6608 11.16ZM58.6608 10.024C59.1835 10.024 59.6582 9.89604 60.0848 9.64004C60.5222 9.38404 60.8635 9.03737 61.1088 8.60004C61.3648 8.15204 61.4928 7.65604 61.4928 7.11204C61.4928 6.55737 61.3702 6.05604 61.1248 5.60804C60.8795 5.16004 60.5382 4.80804 60.1008 4.55204C59.6742 4.29604 59.1995 4.16804 58.6768 4.16804C58.1435 4.16804 57.6635 4.29604 57.2368 4.55204C56.8102 4.80804 56.4742 5.16004 56.2288 5.60804C55.9835 6.05604 55.8608 6.55737 55.8608 7.11204C55.8608 7.65604 55.9835 8.15204 56.2288 8.60004C56.4742 9.03737 56.8102 9.38404 57.2368 9.64004C57.6635 9.89604 58.1382 10.024 58.6608 10.024Z" fill="#171718"></path>
+</svg>
+</div>
+                                                                                                    <div class="typography__font-val"><svg width="33" height="14" viewbox="0 0 33 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4.33598 0.440002V11H3.08798V1.912L0.78398 2.632L0.47998 1.56L3.87198 0.440002H4.33598Z" fill="#171718"></path>
+<path d="M10.6225 4.168C11.2411 4.168 11.8118 4.32267 12.3345 4.632C12.8678 4.93067 13.2891 5.34667 13.5985 5.88C13.9078 6.40267 14.0625 6.984 14.0625 7.624C14.0625 8.28534 13.9025 8.888 13.5825 9.432C13.2625 9.976 12.8251 10.4027 12.2705 10.712C11.7265 11.0213 11.1238 11.176 10.4625 11.176C9.81181 11.176 9.20915 11.0213 8.65448 10.712C8.09981 10.4027 7.66248 9.976 7.34248 9.432C7.02248 8.888 6.86248 8.28 6.86248 7.608C6.86248 7.064 6.95848 6.57867 7.15048 6.152C7.35315 5.72534 7.66781 5.19734 8.09448 4.568C8.14781 4.504 8.19048 4.44534 8.22248 4.392C8.25448 4.33867 8.28648 4.29067 8.31848 4.248L10.9425 0.440002H12.4305L9.74248 4.312C9.99848 4.216 10.2918 4.168 10.6225 4.168ZM10.4625 10.04C10.8998 10.04 11.2998 9.93334 11.6625 9.72C12.0251 9.50667 12.3078 9.21867 12.5105 8.856C12.7238 8.48267 12.8305 8.072 12.8305 7.624C12.8305 7.18667 12.7238 6.78667 12.5105 6.424C12.3078 6.05067 12.0251 5.75734 11.6625 5.544C11.2998 5.33067 10.8998 5.224 10.4625 5.224C10.0251 5.224 9.62515 5.33067 9.26248 5.544C8.89981 5.75734 8.61181 6.05067 8.39848 6.424C8.19581 6.78667 8.09448 7.18667 8.09448 7.624C8.09448 8.072 8.19581 8.48267 8.39848 8.856C8.61181 9.21867 8.89981 9.50667 9.26248 9.72C9.62515 9.93334 10.0251 10.04 10.4625 10.04Z" fill="#171718"></path>
+<path d="M20.331 3.032C21.067 3.032 21.7283 3.21334 22.315 3.576C22.9016 3.928 23.3603 4.41334 23.691 5.032C24.0216 5.65067 24.187 6.33867 24.187 7.096C24.187 7.85334 24.0163 8.54667 23.675 9.176C23.3443 9.79467 22.8856 10.2853 22.299 10.648C21.7123 11 21.0563 11.176 20.331 11.176C19.755 11.176 19.211 11.064 18.699 10.84C18.1976 10.6053 17.787 10.2853 17.467 9.88V13.88H16.235V3.208H17.387V4.456C17.6856 4.008 18.0963 3.66134 18.619 3.416C19.1523 3.16 19.723 3.032 20.331 3.032ZM20.155 10.04C20.6776 10.04 21.147 9.91734 21.563 9.672C21.9896 9.416 22.3203 9.064 22.555 8.616C22.8003 8.168 22.923 7.66667 22.923 7.112C22.923 6.55734 22.8003 6.056 22.555 5.608C22.3203 5.16 21.9896 4.808 21.563 4.552C21.147 4.296 20.6776 4.168 20.155 4.168C19.6856 4.168 19.243 4.27467 18.827 4.488C18.4216 4.70134 18.091 5.02667 17.835 5.464C17.579 5.90134 17.451 6.44534 17.451 7.096C17.451 7.74667 17.5736 8.296 17.819 8.744C18.075 9.18134 18.4056 9.50667 18.811 9.72C19.227 9.93334 19.675 10.04 20.155 10.04Z" fill="#171718"></path>
+<path d="M30.8639 11L28.6399 7.8L26.4319 11H24.9919L27.8879 6.936L25.2319 3.208H26.6559L28.6399 6.072L30.6399 3.208H32.0639L29.3599 6.936L32.2879 11H30.8639Z" fill="#171718"></path>
+</svg>
+</div>
+                                                            </div>
+                        </div>
+                    </div>
+                                                    <div class="col-lg-6">
+                        <div class="case-info__heading">
+                            <h2>Цвета</h2>
+                        </div>
+                        <div class="typography__colors">
+                                                            <div class="typography__colors-col">
+                                    <div class="typography__colors-item typography__colors-item_big" style="background-color:#3861d3">
+                                        <div>
+                                            #3861d3                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="typography__colors-col">
+                                    <div class="typography__colors-item" style="background-color:#4eb99e">
+                                        <div style="color:#fff">
+                                            #4eb99e                                        </div>
+                                    </div>
+                                </div>
+                                                            <div class="typography__colors-col">
+                                    <div class="typography__colors-item" style="background-color:#f5faff">
+                                        <div>
+                                            #f5faff                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+    <section class="case-responsive">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-4">
+                    <div class="case-info__heading">
+                        <h2>Адаптив</h2>
+                    </div>
+                    <div class="case-responsive__text">
+                        Для каждого проекта мы в обязательном порядке разрабатываем дизайн мобильной версии и делаем адаптивную верстку, а также следим за кроссбраузерной совместимостью проекта.                    </div>
+                </div>
+                                    <div class="col-xl-8">
+                        <div class="case-responsive__images">
+                                                            <div class="case-responsive__item">
+                                    <p>Tablet</p>
+                                    <div class="case-responsive__tablet">
+                                        <div>
+                                            <img src="../../upload/iblock/729/2cz9mz02ez5t7zr4dyj60izrpx5350np.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                                                                        <div class="case-responsive__item">
+                                    <p>Mobile</p>
+                                    <div class="case-responsive__mobile">
+                                        <div>
+                                            <img src="../../upload/iblock/53e/oa8osfus0kc7hylb4pmxh8ok0v7l48cj.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                                    </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+
+    <section class="case-integration">
+
+        <div class="container">
+
+            <div class="case-info__heading">
+                <h2>Технологии и интеграции</h2>
+            </div>
+
+
+            <div class="production__list row">
+                                    <div class="col-lg-3 col-md-4 col-sm-6 ">
+                        <div class="production__item">
+                            <span class="production__title">Laravel framework</span>
+                            <div class="production__logo-wrapper">
+                                <img src="../../upload/uf/c6e/lbsvrnso0sjagpfg0cb9yud1pbh243cd.svg" alt="" class="production__logo" width="" height="">
+                            </div>
+                        </div>
+                    </div>
+                                            </div>
+
+
+        </div>
+    </section>
+
+    <section class="case-price">
+        <div class="container">
+            <div class="row">
+                                    <div class="col-md-6">
+                        <div class="case-price__heading case-info__heading">
+                            <h2>Примерная стоимость</h2>
+                        </div>
+                        <div class="price__val">
+                            <div class="case-price__val-cost">
+                                <span class="case-price__val-text">150 000 - ДОГОВОРНАЯ</span>
+                                <div class="case-price__val-question">
+                            <span class="case-price__val-question-icon">
+                                <svg width="11" height="11">
+                                    <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#question-mark-icon"></use>
+                                </svg>
+                            </span>
+                                    <div class="case-price__val-question-content">
+                                        Данные о бюджетах проекта мы не раскрываем
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                                    <div class="col-md-6">
+                        <div class="case-price__heading case-info__heading">
+                            <h2>Сроки выполнения</h2>
+                        </div>
+                        <div class="case-price__val">
+                            <span class="case-price__val-text">1 месяц</span>
+                        </div>
+                    </div>
+                            </div>
+        </div>
+    </section>
+
+
+
+
+<section class="total">
+    <div class="container">
+        <div class="total__content row">
+            <div class="total__description col-xl-6 col-lg-6 col-12">
+                <h2 class="heading heading__h2">Общий результат</h2>
+                <div class="total__wrapper">
+
+                    <p>Метрики проекта находятся под NDA.</p>
+<p>Нужно разработать сайт? Вы можете оставить заявку на сайте, позвонить нам или <a href="../../forms/index.htm" target="_blank">заполнить бриф</a>. Мы обязательно свяжемся с Вами в течение рабочего дня и подберем оптимальное решение для Вашего бизнеса.</p>
+
+                    <a href="javascript:void(0)" data-comment="Заявка из портфолио" data-scroll-to-form="" class="total__btn button button_icon">
+                        <span>Оставить заявку</span>
+                        <svg width="32" height="8">
+                            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#button-arr-icon"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+                    </div>
+    </div>
+</section>
+
+
+
+
+
+
+	
+
+<section class="feedback ">
+    <div class="container">
+        <div class="feedback__inner">
+            <div class="row">
+                <div class="feedback__wrapper col-lg-12">
+                    <h2 class="feedback__heading_default heading text-white heading__h1">Обсудим Ваш <span>проект?</span></h2>
+                    
+                </div>
+                <form class="feedback__form col-lg-12" autocomplete="off" action="javascript:void(0)" method="POST">
+                    <input type="hidden" name="sessid" id="sessid" value="744fe7a67232ccccc980f0d18ce6d9a6">                    <input type="hidden" name="page_url" value="/portfolio/lending-osago-onlayn/">
+                    <input type="hidden" name="form_code" value="footer-form">
+                    <input type="hidden" name="goal" value="footer-form">
+                    <input type="hidden" name="web_form_apply" value="Y">
+                    <input type="hidden" name="state" value="webform">
+                    <input type="hidden" name="WEB_FORM_ID" value="2">
+
+<div style="display:none">
+		<input type="text" name="name" placeholder="Name">
+	</div>
+
+                    <div class="row align-items-start">
+                                                            <div class="col-md-4">
+                                        <div class="form__line">
+                                            <label for="footer-form-name" class="form__label">
+                                                Имя<span>*</span>                                            </label>
+                                            <div class="form__input-field">
+                                                <input autocomplete="off" name="form_text_3" type="text" id="footer-form-name" class="form__input  required text-field" placeholder="Ваше имя">
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                        <div class="col-md-4">
+                                        <div class="form__line">
+                                            <label for="footer-form-phone" class="form__label">
+                                                Телефон<span>*</span>                                            </label>
+                                            <div class="form__input-field">
+                                                <input autocomplete="off" name="form_text_4" type="text" id="footer-form-phone" class="form__input  phone-field required " placeholder="Ваш телефон">
+                                            </div>
+                                        </div>
+                                    </div>
+                                                                        <div class="col-md-4">
+                                        <div class="form__line">
+                                            <label for="footer-form-email" class="form__label">
+                                                Email<span>*</span>                                            </label>
+                                            <div class="form__input-field">
+                                                <input autocomplete="off" name="form_email_7" type="text" id="footer-form-email" class="form__input  email-field required " placeholder="Ваш email">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="form_hidden_6" value="Общий запрос"><input type="hidden" name="form_hidden_8" value="WEB"><input type="hidden" name="form_hidden_11" value="/portfolio/lending-osago-onlayn/">
+                                                        <div class="col-12">
+                                    <div class="feedback__input feedback__input_textarea mb-4">
+                                        <span class="feedback__label">Дополнительно</span>
+                                        <textarea name="form_textarea_5" class="feedback__field feedback__textarea " placeholder="Комментарий к заявке" autocomplete="off"></textarea>
+                                    </div>
+
+                                </div>
+                                
+                    </div>
+                    <div class="feedback__submit d-md-flex align-items-center">
+                        <div class="feedback__input mr-md-4">
+                            <button name="web_form_submit" class="button button_icon button_regular-purple feedback__button web-form-submit" type="submit">
+                                <span>Оставить заявку</span>
+                                <svg width="32" height="8">
+                                    <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#button-arr-icon"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="feedback__input w-100">
+                            <div class="feedback-wrapper_privacy">
+                                <p class="paragraph feedback__privacy text-white">Нажимая на кнопку "Оставить заявку", <br>Вы даёте согласие на обработку                                    <a href="/404.html" class="link link_theme_light_purple_underline">персональных данных.</a></p>
+                            </div>
+                        </div>
+                    </div>
+                                            <a href="../index.htm" class="link return-link">
+                            <svg class="small-icon return-link__icon" width="12" height="12">
+                                <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#arrow-icon"></use>
+                            </svg>
+                            <span>Вернуться к портфолио</span>
+                        </a>
+                                    </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+    </main><footer class="footer">
+  <div class="container">
+	<div class="footer__wrapper">
+    <div class="footer__contacts">
+
+        <div class="footer__contacts-item">
+          <a class="footer__contacts-phone footer__phone link " href="tel:+996995995995">
+			<div class="footer__contacts-icon">
+			  <svg class="contacts__phone-icon" width="15" height="15">
+				<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#phone-icon"></use>
+			  </svg>
+			</div>
+			<span>+996 995 995 995</span>
+		  </a>
+        </div>
+        <div class="footer__contacts-item">
+          <a class="footer__contacts-email footer__email link " href="mailto:codeforce.kg@gmail.com">
+				<div class="footer__contacts-icon">
+				  <svg class="contacts__email-icon" width="15" height="11">
+					<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#email-icon"></use>
+				  </svg>
+				</div>
+				<span>codeforce.kg@gmail.com</span>
+			</a>
+        </div>
+        <div class="footer__address">
+			<div class="footer__contacts-icon">
+			  <svg width="12" height="15">
+				<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#pin-icon"></use>
+			  </svg>
+			</div>
+			<span>Бишкек, Адрес </span>
+		</div>
+
+		<div class="footer__socials">
+      <div class="social-icons">
+        
+          <a target="_blank" href="https://wa.me/996995995995" class="social-icons__link social-icons__link_theme_white social-icons__link_whatsapp">
+              <img src="../../local/templates/codeforce/build/img/icons/social/whatsapp-color.svg" width="18" height="18" alt="WhatsApp">
+              <span class="visually-hidden d-none">WhatsApp</span>
+          </a>
+          <a target="_blank" href="https://t.me/CodeForceBot" class="social-icons__link social-icons__link_theme_white social-icons__link_telegram">
+              <svg class="social-icons__icon" width="18" height="18">
+                  <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#telega-icon"></use>
+              </svg>
+              <span class="visually-hidden d-none">Telegram</span>
+          </a>
+          <a target="_blank" href="https://www.instagram.com/" class="social-icons__link social-icons__link_theme_white social-icons__link_instagram">
+              <svg class="social-icons__icon" width="18" height="18">
+                  <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#instagram-icon"></use>
+              </svg>
+              <span class="visually-hidden d-none">Behance</span>
+          </a>
+          <!--<a target="_blank" href="https://facebook.com/codeforce.kg" class="social-icons__link social-icons__link_theme_white social-icons__link_fb">
+          <svg class="social-icons__icon social-icon_theme_white" width="8px" height="12px">
+            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#fb-icon"></use>
+          </svg>
+          <span class="visually-hidden d-none">Facebook</span>
+        </a>
+        <a target="_blank" href="https://instagram.com/codeforce.kg" class="social-icons__link social-icons__link_theme_white social-icons__link_instagram">
+          <svg class="social-icons__icon social-icon_theme_white" width="15px" height="15px">
+            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#instagram-icon"></use>
+          </svg>
+          <span class="visually-hidden d-none">Instagram</span>
+        </a>-->
+      </div>
+      </div>
+    </div>
+
+	<div class="footer__menu">
+		<div class="footer__menu-content">
+		
+
+
+			<div class="footer__menu-item">
+			<a class="footer__menu-link footer__menu-title " href="../../about/index.htm">О нас				
+				<span class="d-md-none footer__menu-title-toggle">
+				<svg class="footer__menu-title-icon " width="6px" height="13px">
+					<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#checvron-right-icon"></use>
+				</svg>
+				</span>
+			
+			</a>
+		</div>
+		
+	
+	
+
+	
+		<ul class="footer__menu-list">
+			<li class="footer__menu-item"><a class="footer__menu-link selected" href="../index.htm">Портфолио</a></li>
+		
+		
+	
+	
+
+	
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../reviews/index.htm">Отзывы</a></li>
+		
+		
+	
+	
+
+	
+			
+		
+		
+	
+	
+
+	
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../vacancy/index.htm">Вакансии</a></li>
+		
+		
+	
+	
+
+	
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../contacts/index.htm">Контакты</a></li>
+		
+		
+	
+	
+		</ul>
+			</div>
+	</div>
+	<div class="footer__menu">
+		<div class="footer__menu-content">
+		
+
+
+			<div class="footer__menu-item">
+			<a class="footer__menu-link footer__menu-title " href="../../services/index.htm">Услуги				
+				<span class="d-md-none footer__menu-title-toggle">
+				<svg class="footer__menu-title-icon " width="6px" height="13px">
+					<use xlink:href="/local/templates/codeforce/build/img/sprite.svg#checvron-right-icon"></use>
+				</svg>
+				</span>
+			
+			</a>
+		</div>
+		
+	
+	
+
+	
+		<ul class="footer__menu-list">
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../site-development/index.htm">Разработка сайтов</a></li>
+		
+		
+	
+	
+
+	
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../podderzhka-saytov/index.htm">Техническая поддержка сайтов</a></li>
+		
+		
+	
+	
+
+	
+			<li class="footer__menu-item"><a class="footer__menu-link " href="../../integrations/index.htm">Интеграции</a></li>
+		
+		
+	
+	
+
+	
+			
+		
+		
+	
+	
+		</ul>
+			</div>
+	</div>
+	<div class="footer__menu">
+		<div class="footer__menu-content">
+		
+		</div>
+	</div>
+	</div>
+
+	<div class="footer__bot">
+		<div class="footer__bot-copyrights">
+			© Digital-агентство CODEFORCE. Все права защищены. 2024 г.		</div>
+		<div class="footer__bot-privacy">
+			  <div class="privacy">
+				<a href="/404.html" class="link link_theme_light_purple_underline">Политика конфиденциальности</a>
+			  </div>
+		</div>
+
+	</div>
+
+
+
+  </div>
+</footer>
+<a href="#" class="scroll-top">
+    <div class="scroll-top__btn">
+        <svg width="20">
+            <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#long-arrow-icon"></use>
+        </svg>
+    </div>
+</a>
+<!--noindex-->
+<div class="feedback__popup popup" id="feedback__popup">
+    <div class="feedback__popup-container container">
+        <div class="feedback__popup-wrapper">
+            <h2 class="heading heading__h1">Заказать звонок</h2>
+            
+
+
+<form class="feedback__form" autocomplete="off" action="javascript:void(0)" method="POST">
+	<input type="hidden" name="sessid" id="sessid_1" value="744fe7a67232ccccc980f0d18ce6d9a6">	<input type="hidden" name="page_url" value="/portfolio/lending-osago-onlayn/">
+	<input type="hidden" name="form_code" value="header-form">
+	<input type="hidden" name="form_category" value="16">
+	<input type="hidden" name="web_form_apply" value="Y">
+		<input type="hidden" name="goal" value="header-form">
+		<input type="hidden" name="state" value="webform">
+		
+	<div style="display:none">
+		<input type="text" name="name" placeholder="Name">
+	</div>
+		
+	<input type="hidden" name="WEB_FORM_ID" value="1">
+	<div class="feedback__input-list row">
+		<div class="feedback-wrapper col-xl-12 col-lg-12">
+			<div class="feedback__input-list_inner">
+					<div class="form__line">
+					<label for="field-name-663a570592fe2" class="form__label">
+						Имя<span>*</span>					</label>
+					<div class="form__input-field">
+						<input autocomplete="off" type="text" id="field-name-663a570592fe2" placeholder="Ваше имя" class="form__input  required text-field" name="form_text_1">
+					</div>
+					
+				</div>
+
+				
+							<div class="form__line">
+					<label for="field-phone-663a570592fe2" class="form__label">
+						Телефон<span>*</span>					</label>
+					<div class="form__input-field">
+						<input autocomplete="off" type="text" id="field-phone-663a570592fe2" placeholder="Ваш телефон" class="form__input  phone-field required " name="form_text_2">
+					</div>
+					
+				</div>
+
+				
+			<input type="hidden" name="form_hidden_9" value="WEB"><input type="hidden" name="form_hidden_10" value="/portfolio/lending-osago-onlayn/">            </div>
+		</div>
+		<div class="feedback-wrapper col-xl-12 col-lg-12">
+			<div class="feedback__input-list_inner">
+				<div class="feedback__input">
+					<button name="web_form_submit" class="button web-form-submit" type="submit">Оставить заявку</button>
+				</div>
+			</div>
+		</div>
+		<div class="feedback-wrapper_privacy-popup col-xl-12 col-lg-12">
+			<div class="feedback-wrapper_privacy">
+				<p class="paragraph feedback__privacy">Нажимая на кнопку "Оставить заявку", Вы даёте согласие на обработку <a href="/404.html" class="link link_theme_gold privacy__link">персональных данных.</a></p>
+			</div>
+		</div>
+	</div>
+
+</form>
+        </div>
+    </div>
+</div>
+
+
+<div class="feedback__thanks popup" id="feedback__thanks">
+  <div class="feedback__thanks-container container">
+    <div class="feedback__thanks-wrapper">
+      <svg class="thanks__icon" width="40" height="40">
+        <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#send-icon"></use>
+      </svg>
+      <h2 class="heading heading__h2">Спасибо!</h2>
+      <p class="paragraph thanks__paragraph">Ваше сообщение отправлено.<br> Мы свяжемся с Вами в течение дня.</p>
+    </div>
+  </div>
+</div>
+<div class="feedback__thanks popup" id="consult__thanks">
+  <div class="feedback__thanks-container container">
+    <div class="feedback__thanks-wrapper">
+      <svg class="thanks__icon" width="40" height="40">
+        <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#send-icon"></use>
+      </svg>
+      <h2 class="heading heading__h2">Спасибо!</h2>
+      <p class="paragraph thanks__paragraph">Ваша заявка успешно отправлена. Мы свяжемся с Вами в течение двух рабочих дней.</p>
+    </div>
+  </div>
+</div>
+<div class="feedback__thanks popup" id="expert__thanks">
+  <div class="feedback__thanks-container container">
+    <div class="feedback__thanks-wrapper">
+      <svg class="thanks__icon" width="40" height="40">
+        <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#send-icon"></use>
+      </svg>
+      <h2 class="heading heading__h2">Спасибо!</h2>
+      <p class="paragraph thanks__paragraph">Ваша заявка успешно отправлена. Мы свяжемся с Вами в течение дня.</p>
+    </div>
+  </div>
+</div>
+<div class="feedback__thanks popup" id="idea__thanks">
+  <div class="feedback__thanks-container container">
+    <div class="feedback__thanks-wrapper">
+      <svg class="thanks__icon" width="40" height="40">
+        <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#send-icon"></use>
+      </svg>
+      <h2 class="heading heading__h2">Спасибо!</h2>
+      <p class="paragraph thanks__paragraph">Ваша заявка успешно отправлена. Сборник идей для разработки сайта отправлен на почту указанную в заявке.</p>
+    </div>
+  </div>
+</div>
+  <div class="cookie-form">
+    <div class="container">
+      <div class="cookie-wrapper">
+        <p class="paragraph cookie__message">Мы используем файлы cookie, чтобы собирать данные о трафике, анализировать их, подбирать для вас подходящий контент и рекламу, а также дать вам возможность делиться информацией в социальных сетях. Также мы передаем информацию о ваших действиях на сайте в обезличенном виде нашим партнерам: социальным сетям и компаниям, занимающимся рекламой и веб-аналитикой. Продолжая пользоваться данным сайтом, вы подтверждаете свое согласие на использование файлов cookie в соответствии с настоящим уведомлением.</p>
+        <a class="button cookie__accept">ок</a>
+      </div>
+    </div>
+  </div>
+<!--/noindex-->
+
+
+<div class="feedback__thanks popup" id="subscribe__thanks">
+    <div class="feedback__thanks-container container">
+        <div class="feedback__thanks-wrapper">
+            <svg class="thanks__icon" width="40" height="40">
+                <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#send-icon"></use>
+            </svg>
+            <h2 class="heading heading__h2">Спасибо!</h2>
+            <p class="paragraph thanks__paragraph">Вы подписались на рассылку.</p>
+        </div>
+    </div>
+</div>
+
+<div class="oneclick" style="display:none" id="oneclick"></div>
+<div class="order-complete" style="display:none" id="order-complete">
+	<div class="order-complete__inner">
+		<div class="order-complete__icon d-sm-block d-none">
+			<svg width="99" height="99" data-dz-remove="">
+                <use xlink:href="/local/templates/codeforce/build/img/sprite.svg#checked3-icon"></use>
+            </svg>
+		</div>
+		<div class="order-complete__content">
+			<div class="order-complete__title">Спасибо!</div>
+			<p class="order-complete__text">Ваш заказ №<span data-order-number=""></span> оформлен</p>
+			<p class="order-complete__note">Мы свяжемся с вами в течение 30 минут</p>
+		</div>
+	</div>
+</div>
+
+
+<div class="feedback__popup popup" id="order-payment">
+   <div class="feedback__popup-container container">
+      <div class="feedback__popup-wrapper">
+         <h2 class="heading heading__h1">Заказать расчёт сметы</h2>
+		 
+
+
+	 <form class="feedback__form" autocomplete="off" action="javascript:void(0)" method="POST">
+		<input type="hidden" name="sessid" id="sessid_2" value="744fe7a67232ccccc980f0d18ce6d9a6">		
+		<input type="hidden" name="page_url" value="/portfolio/lending-osago-onlayn/">
+		<input type="hidden" name="form_code" value="order-calculation">
+				<input type="hidden" name="goal" value="order-calculation">
+				<input type="hidden" name="web_form_apply" value="Y">
+		<input type="hidden" name="state" value="webform">
+		<input type="hidden" name="WEB_FORM_ID" value="4">
+					
+					<div style="display:none">
+		<input type="text" name="name" placeholder="Name">
+	</div>
+					
+					
+		<div class="feedback__input-list row">
+		   <div class="feedback-wrapper col-xl-12 col-lg-12">
+			  <div class="feedback__input-list_inner">
+			  
+			  							 <div class="form__line">
+							 	<label for="field-NAME-663a5705930d2" class="form__label">
+									Ваше имя<span>*</span>								</label>
+								<div class="form__input-field">
+								   <input autocomplete="off" type="text" id="field-NAME-663a5705930d2" class="form__input  required text-field" name="form_text_20" placeholder="Ваше имя">
+								</div>
+							 </div>
+														 <div class="form__line">
+							 	<label for="field-PHONE-663a5705930d2" class="form__label">
+									Телефон<span>*</span>								</label>
+								<div class="form__input-field">
+								   <input autocomplete="off" type="text" id="field-PHONE-663a5705930d2" class="form__input  phone-field required " name="form_text_21" placeholder="Ваш телефон">
+								</div>
+							 </div>
+														 <div class="form__line">
+							 	<label for="field-EMAIL-663a5705930d2" class="form__label">
+									Email<span>*</span>								</label>
+								<div class="form__input-field">
+								   <input autocomplete="off" type="text" id="field-EMAIL-663a5705930d2" class="form__input  email-field required " name="form_email_22" placeholder="Ваш e-mail">
+								</div>
+							 </div>
+														 <div class="form__line">
+							 	<label for="field-COMMENT-663a5705930d2" class="form__label">
+									Комментарий								</label>
+								<div class="form__input-field">
+								   <textarea name="form_textarea_23" id="field-COMMENT-663a5705930d2" cols="20" class="form__input  form__textarea" placeholder="Ваш комментарий"></textarea>
+								</div>
+							 </div>
+						
+						<input type="hidden" name="form_hidden_24" value=" WEB"><input type="hidden" name="form_hidden_25" value="/portfolio/lending-osago-onlayn/">			  </div>
+		   </div>
+		   <div class="feedback-wrapper col-xl-12 col-lg-12">
+			  <div class="feedback__input-list_inner">
+				 <div class="feedback__input">
+					<button name="web_form_submit" class="button web-form-submit" type="submit">Оставить заявку</button>
+				 </div>
+			  </div>
+		   </div>
+		   <div class="feedback-wrapper_privacy-popup col-xl-12 col-lg-12">
+			  <div class="feedback-wrapper_privacy">
+				 <p class="paragraph feedback__privacy">Нажимая на кнопку "Оставить заявку", Вы даёте согласие на
+					обработку <a href="/404.html" target="_blank" class="link link_theme_gold privacy__link">персональных данных.</a></p>
+			  </div>
+		   </div>
+		</div>
+	 </form>
+		       </div>
+   </div>
+</div>
+
+<script src="../../share2/share.js" defer=""></script>
+
+<script src="/index.js"></script>
+</body>
+</html>
